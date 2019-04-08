@@ -1,0 +1,6 @@
+				<svg width="450" height="300" viewBox="0 0 450 300">
+    <filter id="erode">
+        <feMorphology operator="erode" radius="3"></feMorphology>
+    </filter>
+    <image xlink:href="img/SERVICE.png" width="90%" height="90%" x="10" y="10" filter="url(#erode)"></image>
+</svg>
